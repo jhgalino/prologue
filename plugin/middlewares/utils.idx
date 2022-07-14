@@ -1,0 +1,7 @@
+testMiddleware	middlewares/utils.html#testMiddleware	utils: testMiddleware(): HandlerAsync	
+loggingMiddleware	middlewares/utils.html#loggingMiddleware,string	utils: loggingMiddleware(appName = &quot;Prologue&quot;): HandlerAsync	
+debugRequestMiddleware	middlewares/utils.html#debugRequestMiddleware,string	utils: debugRequestMiddleware(appName = &quot;Prologue&quot;): HandlerAsync	
+debugResponseMiddleware	middlewares/utils.html#debugResponseMiddleware,string	utils: debugResponseMiddleware(appName = &quot;Prologue&quot;): HandlerAsync	
+stripPathMiddleware	middlewares/utils.html#stripPathMiddleware,string	utils: stripPathMiddleware(appName = &quot;Prologue&quot;): HandlerAsync	
+httpRedirectMiddleWare	middlewares/utils.html#httpRedirectMiddleWare	utils: httpRedirectMiddleWare(): HandlerAsync	
+isStaticFile	middlewares/utils.html#isStaticFile,string,openArray[string]	utils: isStaticFile(path: string; dirs: openArray[string]): tuple[hasValue: bool,\n    filename, dir: string]	
